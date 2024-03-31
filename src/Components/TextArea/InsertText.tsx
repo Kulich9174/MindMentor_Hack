@@ -59,6 +59,7 @@ const handleSliderChange = (value: number) => {
                                 max={10} 
                                 onChange={handleValueChange} // Присвоение обработчика
                             /> */}
+                            <p>questions amount</p>
                             <Slider
                             min={1}
                             max={10}

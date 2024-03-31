@@ -1,0 +1,58 @@
+.header_container{
+    display:flex;
+    gap:6px;
+    padding-bottom:12px;
+}
+.inputQuestion {
+    position: absolute;
+    z-index: -1; /* Исправлено с "z-ndex" на "z-index" */
+    opacity: 0;  
+}
+.inputQuestion + .radioInfo::before {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.inputQuestion:hover + .radioInfo::before {
+    border: 1px solid black;
+    cursor: pointer;
+}
+/* .inputQuestion{
+    height : 50px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 15px;
+} */
+
+.radioInfo {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.radioInfo::before {
+    content: "";
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid var(--primary-200);
+    border-radius: 50%;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.inputQuestion:checked + .radioInfo::before {
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='23' viewBox='0 0 24 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='11.7832' cy='11.5' r='11' stroke='%230541F0'/%3E%3Ccircle cx='11.7832' cy='11.5' r='7.5' fill='%230541F0'/%3E%3C/svg%3E");
+}
+.container_section{
+    width:90%;
+}
+.container{
+    display:flex;
+    gap:6px;
+    flex-direction:column;
+}
