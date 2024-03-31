@@ -1,0 +1,8 @@
+.container_section{
+    position: relative; /* Необходимо для позиционирования псевдоэлемента */
+    background-image: url('../../Images/Icons/MainTests.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}

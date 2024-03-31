@@ -1,0 +1,12 @@
+.genMap_container{
+    background-image:url('../../../../Images/Icons/genMap.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius:30px;
+    height:260px;
+}
+.container_section{
+    width:380px;
+    height:260px;
+}

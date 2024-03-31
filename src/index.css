@@ -1,13 +1,18 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face{
+  font-family: 'Bicubik';
+  src: url('../public/fonts/Bicubik.OTF') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family:'Bicubik';
+  font-size:20px;
+}
+h1{
+  font-size:32px;
 }

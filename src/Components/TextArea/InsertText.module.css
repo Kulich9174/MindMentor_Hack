@@ -1,0 +1,118 @@
+/* .insertText__container{
+    background-image:url('../../Images/Icons/InsertTextBg.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius:30px;
+} */
+.insertText__container {
+    position: relative; /* Необходимо для позиционирования псевдоэлемента */
+    background-image: url('../../Images/Icons/InsertTextBg.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    overflow: hidden; /* Гарантирует, что псевдоэлемент не выходит за рамки контейнера */
+}
+
+.insertText__paddings{
+    padding:20px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.insertText__container_smaller{
+    border-radius:30px;
+    width:97%;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    border:4px solid white;
+}
+.insertText__body{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px 124px 40px 0px;
+    gap:30px;
+}
+.arrowReturn{
+    transition: transform 0.3s ease;
+}
+.arrowReturn:hover{
+    transform: scale(1.05);
+}
+.insertText__header{
+    background-color:white;
+    border:solid 1px black;
+    border-radius: 20px; 
+    width:316px;
+    height:56px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.textarea_container{
+    width:90%;
+    padding-bottom:20px;
+}
+.textarea{
+    background:white;
+    border-radius:30px;
+    resize: none;
+    width:100%;
+    height:480px;
+    overflow:auto;
+    padding:40px;   
+}
+.textarea:focus {
+    outline: none;
+}
+
+.insertText__button{
+    background-color:white;
+    border:solid 1px black;
+    border-radius: 20px; 
+    padding:6px;
+    width:90%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition: transform 0.3s ease;
+}
+.insertText__button:hover{
+    transform: scale(1.05);
+}
+
+.insertText__hidden{
+    display:none;
+    visibility:hidden;
+}
+.insertText__range_container{
+    display:flex;
+    padding-bottom:20px;
+    gap:50px;
+}
+.inputNumbers{
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 20px; 
+    padding: 6px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+.inputNumbers::-webkit-inner-spin-button,
+.inputNumbers::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.inputNumbers {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}

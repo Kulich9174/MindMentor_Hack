@@ -1,0 +1,52 @@
+.howWorks__container{
+    background-image:url('../../../../Images/HowWorks.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.howWorks__container_section{
+    position:relative;
+    max-width:380px;
+}
+.howWorks__paddings{
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    gap:96px;
+}
+
+.howWorks__header_container{
+    background-color:white;
+    border:solid 1px black;
+    border-radius: 20px; 
+    width:220px;
+    height:43px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition: transform 0.3s ease;
+}
+.howWorks__header_container:hover{
+    transform: scale(1.05);
+}
+.howWorks__discription{
+    border-radius: 20px; 
+    background-color: rgba(255,255,255,.7);
+    width:240px;
+    height:140px;
+}
+.howWorks__next_image{
+    width:60px;
+    height:60px;
+    transition: transform 0.3s ease;
+}
+.howWorks__next_image:hover{
+    transform: scale(1.05);
+}
+.nextButton__container{
+    display:flex;
+    position:absolute;
+    justify-content:end;
+    bottom:0;
+    right:0;
+}

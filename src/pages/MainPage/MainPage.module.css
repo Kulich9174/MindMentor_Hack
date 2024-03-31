@@ -1,0 +1,6 @@
+.mainPage__container{
+    display:grid;
+    grid-template-columns:69% 29%;
+    gap:2%;
+    padding:28px 40px;
+}
